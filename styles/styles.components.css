@@ -1,0 +1,60 @@
+/*-----------------------------------------------------------------------------------------------------------------------------------
+/*-----| APP BUTTONS
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+.cmp-simple-slate {
+    position: relative;
+    padding: var(--cnt-spc-md);
+    color: var(--cnt-color-dark);
+    background-color: var(--cnt-bg-primary);
+    box-shadow: var(--cnt-shadow-element);
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------
+/*-----| APP BUTTONS
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+.cmp-simple-button {
+    cursor: pointer;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: var(--cnt-fnt-sm);
+    padding-left: var(--cnt-spc-md);
+    padding-right: var(--cnt-spc-md);
+    border-radius: var(--cnt-rounded);
+    border: solid var(--cnt-brd-xm);
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.cmp-app-main-button {
+    cursor: pointer;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: var(--cnt-fnt-sm);
+    padding-left: var(--cnt-spc-md);
+    padding-right: var(--cnt-spc-md);
+    border-radius: var(--cnt-rounded);
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------
+/*-----| APP SCROLLBAR
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+.cmp-hidden-scrollbar {
+    overflow-y: auto;
+}
+
+.cmp-hidden-scrollbar::-webkit-scrollbar {
+    display: none;
+    width: 0px;
+}

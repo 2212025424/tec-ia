@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../public/fonts/Poppins-Regular.ttf");
+}
+
+:root {
+    --app-min-width: 200px;
+    --app-max-width: 1200px;
+    --app-width-content: 95%;
+    --app-min-height: 90vh;
+    --app-navbar-height: 70px;
+    --app-width-sidebar: 300px;
+
+    --app-clr-primary: rgb(26, 95, 122);
+    --app-clr-primary-on: rgb(255, 255, 255);
+    --app-clr-secondary: rgb(21, 152, 149);
+    --app-clr-secondary-on: rgb(255, 255, 255);
+
+    --cnt-bg-screen: rgb(255, 255, 255);
+    --cnt-bg-overlay: rgba(0, 0, 0, .3);
+    --cnt-bg-primary: rgb(255, 255, 255);
+    --cnt-bg-secondary: rgb(250, 250, 250);
+    --cnt-bg-tertiary: rgb(230, 230, 230);
+    --cnt-clr-dark: rgb(40, 40, 40);
+    --cnt-clr-light: rgb(140, 140, 140);
+    --cnt-clr-link: rgb(16, 141, 230);
+    --cnt-brd-color: rgb(240, 240, 240);
+    --cnt-shadow-element: 0px 0px 15px 5px rgba(0, 0, 0, .1);
+
+    --cnt-grd-xl: 350px;
+    --cnt-grd-lg: 300px;
+    --cnt-grd-md: 250px;
+    --cnt-grd-sm: 150px;
+    --cnt-grd-xm: 100px;
+
+    --cnt-spc-xx: 90px;
+    --cnt-spc-xl: 60px;
+    --cnt-spc-lg: 35px;
+    --cnt-spc-md: 20px;
+    --cnt-spc-sm: 10px;
+    --cnt-spc-xm: 3px;
+
+    --cnt-brd-lg: 8px;
+    --cnt-brd-md: 5px;
+    --cnt-brd-sm: 3px;
+    --cnt-brd-xm: .05px;
+
+    /*---| FUENTES |---*/
+    --cnt-fnt-xx: 50px;
+    --cnt-fnt-xl: 40px;
+    --cnt-fnt-lg: 30px;
+
+    --cnt-fnt-h1: 25px;
+    --cnt-fnt-h2: 21px;
+    --cnt-fnt-h3: 18px;
+
+    --cnt-fnt-md: 17px;
+    --cnt-fnt-sm: 15px;
+    --cnt-fnt-xm: 12px;
+    /*---| FUENTES |---*/
+
+    --cnt-rounded: 3px;
+}
+
+body.show-dark-mode {
+    --cnt-bg-screen: rgb(28, 29, 30);
+    --cnt-bg-overlay: rgba(255, 255, 255, 0);
+    --cnt-bg-primary: rgb(255, 255, 255);
+    --cnt-bg-secondary: rgb(250, 250, 250);
+    --cnt-bg-tertiary: rgb(230, 230, 230);
+    --cnt-clr-dark: rgb(40, 40, 40);
+    --cnt-clr-light: rgb(140, 140, 140);
+    --cnt-clr-link: rgb(16, 141, 230);
+    --cnt-brd-color: rgb(240, 240, 240);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: var(--cnt-clr-dark);
+    background-color: var(--cnt-bg-screen);
+}
+
+a {
+    user-select: none;
+    text-decoration: none;
+    color: var(--app-clr-link);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.app-main-wrap {
+    margin: auto;
+    width: 100%;
+    min-height: var(--app-min-height);
+}
+
+.app-wrapper-content {
+    margin: auto;
+    width: var(--app-width-content);
+    min-width: var(--app-min-width);
+    max-width: var(--app-max-width);
+}

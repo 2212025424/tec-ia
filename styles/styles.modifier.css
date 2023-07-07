@@ -1,0 +1,562 @@
+/*-----------------------------------------------------------------------------------------------------------------------------------
+/*-----| APP IMAGES
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+.mdf-d-block {
+    display: block;
+}
+
+.mdf-rounded {
+    border-radius: var(--cnt-rounded);
+}
+
+.mdf-img-responsive {
+    max-width: 100%;
+    height: auto !important;
+    vertical-align: middle;
+}
+
+.mdf-no-userselect {
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------
+/*-----| APP COLORS
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+.mdf-clr-primary {
+    color: var(--app-clr-primary);
+}
+
+.mdf-clr-primary-on {
+    color: var(--app-clr-primary-on);
+}
+
+.mdf-clr-secondary {
+    color: var(--app-clr-secondary);
+}
+
+.mdf-clr-secondary-on {
+    color: var(--app-clr-secondary-on);
+}
+
+.mdf-clr-dark {
+    color: var(--cnt-clr-dark);
+}
+
+.mdf-clr-light {
+    color: var(--cnt-clr-light);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------
+/*-----| APP BACKGROUNDS
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+.mdf-appbg-primary {
+    background-color: var(--app-clr-primary);
+}
+
+.mdf-appbg-secondary {
+    background-color: var(--app-clr-secondary);
+}
+
+.mdf-bg-primary {
+    background-color: var(--cnt-bg-primary);
+}
+
+.mdf-bg-secondary {
+    background-color: var(--cnt-bg-secondary);
+}
+
+.mdf-bg-tertiary {
+    background-color: var(--cnt-bg-tertiary);
+}
+
+.mdf-bg-overlay {
+    background-color: var(--cnt-bg-overlay);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------
+/*-----| APP FONTS
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+.mdf-fnt-lowercase {
+    text-transform: lowercase;
+}
+
+.mdf-fnt-uppercase {
+    text-transform: uppercase;
+}
+
+.mdf-fnt-bold {
+    font-weight: bold;
+}
+
+.mdf-fnt-lighter {
+    font-weight: lighter;
+}
+
+.mdf-fnt-center {
+    text-align: center;
+}
+
+.mdf-fnt-right {
+    text-align: right;
+}
+
+.mdf-fnt-justify {
+    text-align: justify;
+}
+
+.mdf-fnt-xx {
+    font-size: var(--cnt-fnt-xx);
+}
+
+.mdf-fnt-xl {
+    font-size: var(--cnt-fnt-xl);
+}
+
+.mdf-fnt-lg {
+    font-size: var(--cnt-fnt-lg);
+}
+
+.mdf-fnt-h1 {
+    font-size: var(--cnt-fnt-h1);
+}
+
+.mdf-fnt-h2 {
+    font-size: var(--cnt-fnt-h2);
+}
+
+.mdf-fnt-h3 {
+    font-size: var(--cnt-fnt-h3);
+}
+
+.mdf-fnt-md {
+    font-size: var(--cnt-fnt-md);
+}
+
+.mdf-fnt-sm {
+    font-size: var(--cnt-fnt-sm);
+}
+
+.mdf-fnt-xm {
+    font-size: var(--cnt-fnt-xm);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------
+/*-----| APP COLUMNS
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+.mdf-grd-xl {
+    display: grid;
+    gap: var(--cnt-spc-lg);
+    grid-template-columns: repeat(auto-fit, minmax(var(--cnt-grd-xl), 1fr));
+}
+
+.mdf-grd-lg {
+    display: grid;
+    gap: var(--cnt-spc-lg);
+    grid-template-columns: repeat(auto-fit, minmax(var(--cnt-grd-lg), 1fr));
+}
+
+.mdf-grd-md {
+    display: grid;
+    gap: var(--cnt-spc-lg);
+    grid-template-columns: repeat(auto-fit, minmax(var(--cnt-grd-md), 1fr));
+}
+
+.mdf-grd-sm {
+    display: grid;
+    gap: var(--cnt-spc-lg);
+    grid-template-columns: repeat(auto-fit, minmax(var(--cnt-grd-sm), 1fr));
+}
+
+.mdf-grd-xm {
+    display: grid;
+    gap: var(--cnt-spc-lg);
+    grid-template-columns: repeat(auto-fit, minmax(var(--cnt-grd-xm), 1fr));
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------
+/*-----| APP MARGINS
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+.mdf-m-xx {
+    margin: var(--cnt-spc-xx);
+}
+
+.mdf-m-xl {
+    margin: var(--cnt-spc-xl);
+}
+
+.mdf-m-lg {
+    margin: var(--cnt-spc-lg);
+}
+
+.mdf-m-md {
+    margin: var(--cnt-spc-md);
+}
+
+.mdf-m-sm {
+    margin: var(--cnt-spc-sm);
+}
+
+.mdf-m-xm {
+    margin: var(--cnt-spc-xm);
+}
+
+
+.mdf-mt-xx {
+    margin-top: var(--cnt-spc-xx);
+}
+
+.mdf-mt-xl {
+    margin-top: var(--cnt-spc-xl);
+}
+
+.mdf-mt-lg {
+    margin-top: var(--cnt-spc-lg);
+}
+
+.mdf-mt-md {
+    margin-top: var(--cnt-spc-md);
+}
+
+.mdf-mt-sm {
+    margin-top: var(--cnt-spc-sm);
+}
+
+.mdf-mt-xm {
+    margin-top: var(--cnt-spc-xm);
+}
+
+
+.mdf-mb-xx {
+    margin-bottom: var(--cnt-spc-xx);
+}
+
+.mdf-mb-xl {
+    margin-bottom: var(--cnt-spc-xl);
+}
+
+.mdf-mb-lg {
+    margin-bottom: var(--cnt-spc-lg);
+}
+
+.mdf-mb-md {
+    margin-bottom: var(--cnt-spc-md);
+}
+
+.mdf-mb-sm {
+    margin-bottom: var(--cnt-spc-sm);
+}
+
+.mdf-mb-xm {
+    margin-bottom: var(--cnt-spc-xm);
+}
+
+
+.mdf-ml-xx {
+    margin-left: var(--cnt-spc-xx);
+}
+
+.mdf-ml-xl {
+    margin-left: var(--cnt-spc-xl);
+}
+
+.mdf-ml-lg {
+    margin-left: var(--cnt-spc-lg);
+}
+
+.mdf-ml-md {
+    margin-left: var(--cnt-spc-md);
+}
+
+.mdf-ml-sm {
+    margin-left: var(--cnt-spc-sm);
+}
+
+.mdf-ml-xm {
+    margin-left: var(--cnt-spc-xm);
+}
+
+
+.mdf-mr-xx {
+    margin-right: var(--cnt-spc-xx);
+}
+
+.mdf-mr-xl {
+    margin-right: var(--cnt-spc-xl);
+}
+
+.mdf-mr-lg {
+    margin-right: var(--cnt-spc-lg);
+}
+
+.mdf-mr-md {
+    margin-right: var(--cnt-spc-md);
+}
+
+.mdf-mr-sm {
+    margin-right: var(--cnt-spc-sm);
+}
+
+.mdf-mr-xm {
+    margin-right: var(--cnt-spc-xm);
+}
+
+
+.mdf-my-xx {
+    margin-top: var(--cnt-spc-xx);
+    margin-bottom: var(--cnt-spc-xx);
+}
+
+.mdf-my-xl {
+    margin-top: var(--cnt-spc-xl);
+    margin-bottom: var(--cnt-spc-xl);
+}
+
+.mdf-my-lg {
+    margin-top: var(--cnt-spc-lg);
+    margin-bottom: var(--cnt-spc-lg);
+}
+
+.mdf-my-md {
+    margin-top: var(--cnt-spc-md);
+    margin-bottom: var(--cnt-spc-md);
+}
+
+.mdf-my-sm {
+    margin-top: var(--cnt-spc-sm);
+    margin-bottom: var(--cnt-spc-sm);
+}
+
+.mdf-my-xm {
+    margin-top: var(--cnt-spc-xm);
+    margin-bottom: var(--cnt-spc-xm);
+}
+
+
+.mdf-mx-xx {
+    margin-left: var(--cnt-spc-xx);
+    margin-right: var(--cnt-spc-xx);
+}
+
+.mdf-mx-xl {
+    margin-left: var(--cnt-spc-xl);
+    margin-right: var(--cnt-spc-xl);
+}
+
+.mdf-mx-lg {
+    margin-left: var(--cnt-spc-lg);
+    margin-right: var(--cnt-spc-lg);
+}
+
+.mdf-mx-md {
+    margin-left: var(--cnt-spc-md);
+    margin-right: var(--cnt-spc-md);
+}
+
+.mdf-mx-sm {
+    margin-left: var(--cnt-spc-sm);
+    margin-right: var(--cnt-spc-sm);
+}
+
+.mdf-mx-xm {
+    margin-left: var(--cnt-spc-xm);
+    margin-right: var(--cnt-spc-xm);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------
+/*-----| APP PADDINGS
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+.mdf-p-xx {
+    padding: var(--cnt-spc-xx);
+}
+
+.mdf-p-xl {
+    padding: var(--cnt-spc-xl);
+}
+
+.mdf-p-lg {
+    padding: var(--cnt-spc-lg);
+}
+
+.mdf-p-md {
+    padding: var(--cnt-spc-md);
+}
+
+.mdf-p-sm {
+    padding: var(--cnt-spc-sm);
+}
+
+.mdf-p-xm {
+    padding: var(--cnt-spc-xm);
+}
+
+
+.mdf-pt-xx {
+    padding-top: var(--cnt-spc-xx);
+}
+
+.mdf-pt-xl {
+    padding-top: var(--cnt-spc-xl);
+}
+
+.mdf-pt-lg {
+    padding-top: var(--cnt-spc-lg);
+}
+
+.mdf-pt-md {
+    padding-top: var(--cnt-spc-md);
+}
+
+.mdf-pt-sm {
+    padding-top: var(--cnt-spc-sm);
+}
+
+.mdf-pt-xm {
+    padding-top: var(--cnt-spc-xm);
+}
+
+
+.mdf-pb-xx {
+    padding-bottom: var(--cnt-spc-xx);
+}
+
+.mdf-pb-xl {
+    padding-bottom: var(--cnt-spc-xl);
+}
+
+.mdf-pb-lg {
+    padding-bottom: var(--cnt-spc-lg);
+}
+
+.mdf-pb-md {
+    padding-bottom: var(--cnt-spc-md);
+}
+
+.mdf-pb-sm {
+    padding-bottom: var(--cnt-spc-sm);
+}
+
+.mdf-pb-xm {
+    padding-bottom: var(--cnt-spc-xm);
+}
+
+
+.mdf-pl-xx {
+    padding-left: var(--cnt-spc-xx);
+}
+
+.mdf-pl-xl {
+    padding-left: var(--cnt-spc-xl);
+}
+
+.mdf-pl-lg {
+    padding-left: var(--cnt-spc-lg);
+}
+
+.mdf-pl-md {
+    padding-left: var(--cnt-spc-md);
+}
+
+.mdf-pl-sm {
+    padding-left: var(--cnt-spc-sm);
+}
+
+.mdf-pl-xm {
+    padding-left: var(--cnt-spc-xm);
+}
+
+
+.mdf-pr-xx {
+    padding-right: var(--cnt-spc-xx);
+}
+
+.mdf-pr-xl {
+    padding-right: var(--cnt-spc-xl);
+}
+
+.mdf-pr-lg {
+    padding-right: var(--cnt-spc-lg);
+}
+
+.mdf-pr-md {
+    padding-right: var(--cnt-spc-md);
+}
+
+.mdf-pr-sm {
+    padding-right: var(--cnt-spc-sm);
+}
+
+.mdf-pr-xm {
+    padding-right: var(--cnt-spc-xm);
+}
+
+
+.mdf-py-xx {
+    padding-top: var(--cnt-spc-xx);
+    padding-bottom: var(--cnt-spc-xx);
+}
+
+.mdf-py-xl {
+    padding-top: var(--cnt-spc-xl);
+    padding-bottom: var(--cnt-spc-xl);
+}
+
+.mdf-py-lg {
+    padding-top: var(--cnt-spc-lg);
+    padding-bottom: var(--cnt-spc-lg);
+}
+
+.mdf-py-md {
+    padding-top: var(--cnt-spc-md);
+    padding-bottom: var(--cnt-spc-md);
+}
+
+.mdf-py-sm {
+    padding-top: var(--cnt-spc-sm);
+    padding-bottom: var(--cnt-spc-sm);
+}
+
+.mdf-py-xm {
+    padding-top: var(--cnt-spc-xm);
+    padding-bottom: var(--cnt-spc-xm);
+}
+
+
+.mdf-px-xx {
+    padding-left: var(--cnt-spc-xx);
+    padding-right: var(--cnt-spc-xx);
+}
+
+.mdf-px-xl {
+    padding-left: var(--cnt-spc-xl);
+    padding-right: var(--cnt-spc-xl);
+}
+
+.mdf-px-lg {
+    padding-left: var(--cnt-spc-lg);
+    padding-right: var(--cnt-spc-lg);
+}
+
+.mdf-px-md {
+    padding-left: var(--cnt-spc-md);
+    padding-right: var(--cnt-spc-md);
+}
+
+.mdf-px-sm {
+    padding-left: var(--cnt-spc-sm);
+    padding-right: var(--cnt-spc-sm);
+}
+
+.mdf-px-xm {
+    padding-left: var(--cnt-spc-xm);
+    padding-right: var(--cnt-spc-xm);
+}

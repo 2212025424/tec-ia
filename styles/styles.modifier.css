@@ -150,6 +150,12 @@
 /*-----| APP COLUMNS
 /*-----------------------------------------------------------------------------------------------------------------------------------*/
 
+.mdf-grd-100-fr {
+    display: grid;
+    gap: var(--cnt-spc-md);
+    grid-template-columns: 70px 1fr;
+}
+
 .mdf-grd-xl {
     display: grid;
     gap: var(--cnt-spc-lg);

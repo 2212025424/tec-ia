@@ -16,7 +16,6 @@ export default function Navbar() {
                     <li className="cmp-navbar-item mdf-p-xm mdf-no-userselect" onClick={() => setShowSubmenu(!showSubmenu)}>
                         <span>Servicios</span>
                         <ul className={`cmp-navbar-submenu mdf-rounded mdf-p-sm mdf-bg-primary mdf-clr-dark ${(showSubmenu ?? 'active')} ${showSubmenu ? 'active' : ''}`}>
-                            <li className="mdf-pb-xm"><Link href="/">Diseño web</Link></li>
                             <li className="mdf-py-xm"><Link href="/">Desarrollo web</Link></li>
                             <li className="mdf-py-xm"><Link href="/">Mantenimiento</Link></li>
                             <li className="mdf-pt-xm"><Link href="/">Videovigilancia</Link></li>
@@ -35,7 +34,6 @@ export default function Navbar() {
                     <li className="mdf-mb-md"><Link href="/"><i className="fa-solid fa-house mdf-mr-sm"></i> Inicio</Link></li>
                     <li className="mdf-mb-md"><Link href="/"><i className="fa-solid fa-people-group mdf-mr-sm"></i> Nosotros</Link></li>
                     <li className="mdf-mb-md mdf-pt-md"><i className="fa-solid fa-briefcase mdf-mr-sm"></i> Servicios</li>
-                    <li className="mdf-mb-md"><Link href="/"> <i className="fa-solid fa-caret-right mdf-mr-sm"></i> Diseño web</Link></li>
                     <li className="mdf-mb-md"><Link href="/"> <i className="fa-solid fa-caret-right mdf-mr-sm"></i> Desarrollo web</Link></li>
                     <li className="mdf-mb-md"><Link href="/"> <i className="fa-solid fa-caret-right mdf-mr-sm"></i> Mantenimiento</Link></li>
                     <li className="mdf-mb-md"><Link href="/"> <i className="fa-solid fa-caret-right mdf-mr-sm"></i> Videovigilancia</Link></li>

@@ -9,7 +9,7 @@ export default function Index() {
                         <div className="col-md-7 lyt-index-maincontent">
                             <h1 className="lyt-index-maintitle mdf-fnt-xx mdf-mb-lg">Tecnologías de la Información</h1>
                             <h2 className="mdf-fnt-h3 mdf-fnt-lighter mdf-mb-xl">Servicios de Tecnologías de la Información que aportan <b>soluciones eficientes</b> para tu empresa, hogar o negocio.</h2>
-                            <a className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on mdf-mb-md" data-aos="zoom-in">
+                            <a className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on mdf-mb-md" data-aos="zoom-in" data-aos-duration="600">
                                 contáctanos
                             </a>
                         </div>
@@ -20,15 +20,32 @@ export default function Index() {
                 </div>
             </section>
 
-            <section className="app-wrapper-content mdf-py-xx">
-                <h2 className="lyt-index-title mdf-fnt-h1 mdf-mb-xl">DESARROLLO DE SITIOS WEB</h2>
-                <div className="row">
-                    <div className="col-md-4 mdf-fnt-center">
-                        <Image src="/images/undraw_proud_coder_re_exuy.svg" alt="Imagen pquetes de desarrollo web" className="mdf-img-responsive mdf-mb-lg" width={300} height={300} />
+            <div className="mdf-bg-primary">
+                <section className="app-wrapper-content mdf-py-xx">
+                    <h2 className="lyt-index-title mdf-fnt-h1 mdf-mb-xl">MANTENIMIENTO DE CÓMPUTO</h2>
+                    <div className="row">
+                        <div className="col-md-4 mdf-fnt-center">
+                            <Image src="/images/undraw_bug_fixing_oc-7-a.svg" alt="Imagen servicios de mantenimiento" className="mdf-img-responsive mdf-mb-lg" width={300} height={300} />
+                        </div>
+                        <div className="col-md-8">
+                            <p className="mdf-fnt-h3 mdf-mb-lg mdf-mt-md">Ofrememos mantenimiento preventivo y correctivo a dispositivos de cómputo, reposición de componentes, actualización de software, instalación de paquetería office, programas de licencia y limpieza de hardware crítico.</p>
+                            <a href="/" className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on" data-aos="zoom-in" data-aos-duration="600">Obtener costos</a>
+                        </div>
                     </div>
-                    <div className="col-md-8">
-                        <p className="mdf-fnt-h3 mdf-mb-lg mdf-mt-md">Desarrollamos sitios web profesionales, que cumplen con criterios de calidad de navegadores actuales usables y accesibles, lo que los hacen ideales para tu empresa, perfil o negocio.</p>
-                        <a href="/" className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on" data-aos="zoom-in">Paquetes de desarrollo</a>
+                </section>
+            </div>
+
+            <section className="mdf-appbg-secondary mdf-clr-secondary-on">
+                <div className="app-wrapper-content mdf-py-xx">
+                    <h2 className="lyt-index-title mdf-fnt-h1 mdf-mb-xl">DESARROLLO DE SITIOS WEB</h2>
+                    <div className="row">
+                        <div className="col-md-4 mdf-fnt-center">
+                            <Image src="/images/undraw_proud_coder_re_exuy.svg" alt="Imagen pquetes de desarrollo web" className="mdf-img-responsive mdf-mb-lg" width={300} height={300} />
+                        </div>
+                        <div className="col-md-8">
+                            <p className="mdf-fnt-h3 mdf-mb-lg mdf-mt-md">Desarrollamos sitios web profesionales, que cumplen con criterios de calidad de navegadores actuales usables y accesibles, lo que los hacen ideales para tu empresa, perfil o negocio.</p>
+                            <a href="/" className="cmp-main-button mdf-bg-primary mdf-clr-dark" data-aos="zoom-in" data-aos-duration="600">Paquetes de desarrollo</a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -73,15 +90,22 @@ export default function Index() {
                 </div>
             </section>
 
-            <section className="app-wrapper-content mdf-py-xx">
-                <h2 className="lyt-index-title mdf-fnt-h1 mdf-mb-xl">MANTENIMIENTO DE CÓMPUTO</h2>
-                <div className="row">
-                    <div className="col-md-4 mdf-fnt-center">
-                        <Image src="/images/undraw_bug_fixing_oc-7-a.svg" alt="Imagen servicios de mantenimiento" className="mdf-img-responsive mdf-mb-lg" width={300} height={300} />
-                    </div>
-                    <div className="col-md-8">
-                        <p className="mdf-fnt-h3 mdf-mb-lg mdf-mt-md">Ofrememos mantenimiento preventivo y correctivo a dispositivos de cómputo, reposición de componentes, actualización de software, instalación de paquetería office, programas de licencia y limpieza de hardware crítico.</p>
-                        <a href="/" className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on" data-aos="zoom-in">Obtener costos</a>
+            <section className="mdf-bg-primary">
+                <div className="app-wrapper-content mdf-py-xx">
+                    <h2 className="lyt-index-title mdf-fnt-h1 mdf-mb-xl">cámaras de videovigilancia</h2>
+                    <div className="row">
+                        <div className="col-md-4 mdf-fnt-center">
+                            <Image src="/images/undraw_camera_re_cnp4.svg" alt="Imagen cámaras de video vigilancia" className="mdf-img-responsive mdf-mb-lg" width={300} height={300} />
+                        </div>
+                        <div className="col-md-8">
+                            <p className="mdf-fnt-h3 mdf-mb-sm">Instalamos y configuramos equipos de videovigilancia para tu trabajo, oficina, hogar. Te mostramos las funciones principales:</p>
+                            <ul className="mdf-fnt-h3 mdf-mb-lg">
+                                <li><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Ángulos de cámaras</li>
+                                <li><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Obtener grabaciones</li>
+                                <li><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Detección de movimiento</li>
+                            </ul>
+                            <a href="/" className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on" data-aos="zoom-in" data-aos-duration="600">Obtener costos</a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -115,25 +139,6 @@ export default function Index() {
                     </div>
                 </div>
             </section>
-
-
-            <div className="app-wrapper-content mdf-py-xx">
-                <h2 className="lyt-index-title mdf-fnt-h1 mdf-mb-xl">cámaras de videovigilancia</h2>
-                <div className="row">
-                    <div className="col-md-4 mdf-fnt-center">
-                        <Image src="/images/undraw_camera_re_cnp4.svg" alt="Imagen cámaras de video vigilancia" className="mdf-img-responsive mdf-mb-lg" width={300} height={300} />
-                    </div>
-                    <div className="col-md-8">
-                        <p className="mdf-fnt-h3 mdf-mb-sm">Instalamos y configuramos equipos de videovigilancia para tu trabajo, oficina, hogar. Te mostramos las funciones principales:</p>
-                        <ul className="mdf-fnt-h3 mdf-mb-lg">
-                            <li><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Ángulos de cámaras</li>
-                            <li><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Obtener grabaciones</li>
-                            <li><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Detección de movimiento</li>
-                        </ul>
-                        <a href="/" className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on" data-aos="zoom-in">Obtener costos</a>
-                    </div>
-                </div>
-            </div>
 
         </main>
     )

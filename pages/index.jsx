@@ -27,9 +27,8 @@ export default function Index() {
                         <Image src="/images/undraw_proud_coder_re_exuy.svg" alt="Imagen pquetes de desarrollo web" className="mdf-img-responsive mdf-mb-lg" width={300} height={300} />
                     </div>
                     <div className="col-md-8">
-                        <p className="mdf-fnt-h3 mdf-mb-lg">Desarrollamos sitios web profesionales, ideales para tu perfil, negocio o empresa. Contamos con diferentes paquetes que pueden adaptarse a tus necesidades.</p>
-                        <p className="mdf-fnt-h3 mdf-mb-lg">Estos proyectos cumplen con los criterios de calidad de los navegadores actuales y criterios de calidad en usabilidad y accesibilidad.</p>
-                        <a href="/" className="cmp-app-main-button mdf-appbg-primary mdf-clr-primary-on mdf-mb-xl" data-aos="zoom-in">Paquetes de desarrollo</a>
+                        <p className="mdf-fnt-h3 mdf-mb-lg mdf-mt-md">Desarrollamos sitios web profesionales, que cumplen con criterios de calidad de navegadores actuales usables y accesibles, lo que los hacen ideales para tu empresa, perfil o negocio.</p>
+                        <a href="/" className="cmp-app-main-button mdf-appbg-primary mdf-clr-primary-on" data-aos="zoom-in">Paquetes de desarrollo</a>
                     </div>
                 </div>
             </section>
@@ -81,9 +80,8 @@ export default function Index() {
                         <Image src="/images/undraw_bug_fixing_oc-7-a.svg" alt="Imagen servicios de mantenimiento" className="mdf-img-responsive mdf-mb-lg" width={300} height={300} />
                     </div>
                     <div className="col-md-8">
-                        <p className="mdf-fnt-h3 mdf-mb-lg">Ofrememos mantenimiento preventivo y correctivo a dispositivos de cómputo, reposición de componentes, actualización segura de sistema operativo, instalación de paquetería office o programas de licencia y limpieza de hardware crítico.</p>
-                        <p className="mdf-fnt-h3 mdf-mb-lg">Todo equipo de cómputo requiere mantenimiento por la labor que ofrece, la recomendación es hacerla máximo cada 6 meses con el fín de incrementar la vida útil.</p>
-                        <a href="/" className="cmp-app-main-button mdf-appbg-primary mdf-clr-primary-on mdf-mb-xl" data-aos="zoom-in">Obtener costos</a>
+                        <p className="mdf-fnt-h3 mdf-mb-lg mdf-mt-md">Ofrememos mantenimiento preventivo y correctivo a dispositivos de cómputo, reposición de componentes, actualización de software, instalación de paquetería office, programas de licencia y limpieza de hardware crítico.</p>
+                        <a href="/" className="cmp-app-main-button mdf-appbg-primary mdf-clr-primary-on" data-aos="zoom-in">Obtener costos</a>
                     </div>
                 </div>
             </section>
@@ -126,8 +124,13 @@ export default function Index() {
                         <Image src="/images/undraw_camera_re_cnp4.svg" alt="Imagen cámaras de video vigilancia" className="mdf-img-responsive mdf-mb-lg" width={300} height={300} />
                     </div>
                     <div className="col-md-8">
-                        <p className="mdf-fnt-h3 mdf-mb-lg mdf-mt-lg">Instamos cámaras de videovigilancia en puntos donde puedas vigilar de forma remota las áreas que deseas tener en grabación.</p>
-                        <a href="/" className="cmp-app-main-button mdf-appbg-primary mdf-clr-primary-on mdf-mb-xl" data-aos="zoom-in">Obtener costos</a>
+                        <p className="mdf-fnt-h3 mdf-mb-sm">Instalamos y configuramos equipos de videovigilancia para tu trabajo, oficina, hogar. Te mostramos las funciones principales:</p>
+                        <ul className="mdf-fnt-h3 mdf-mb-lg">
+                            <li><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Ángulos de cámaras</li>
+                            <li><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Obtener grabaciones</li>
+                            <li><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Detección de movimiento</li>
+                        </ul>
+                        <a href="/" className="cmp-app-main-button mdf-appbg-primary mdf-clr-primary-on" data-aos="zoom-in">Obtener costos</a>
                     </div>
                 </div>
             </div>

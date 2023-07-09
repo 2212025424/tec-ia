@@ -6,10 +6,10 @@ export default function Index() {
             <section className="mdf-bg-secondary mdf-clr-primary">
                 <div className="app-wrapper-content mdf-py-xx">
                     <div className="row">
-                        <div className="col-md-7 cmp-index-main_content">
-                            <h1 className="cmp-index-main_title mdf-fnt-xx mdf-mb-lg">Tecnologías de la Información</h1>
+                        <div className="col-md-7 lyt-index-maincontent">
+                            <h1 className="lyt-index-maintitle mdf-fnt-xx mdf-mb-lg">Tecnologías de la Información</h1>
                             <h2 className="mdf-fnt-h3 mdf-fnt-lighter mdf-mb-xl">Servicios de Tecnologías de la Información que aportan <b>soluciones eficientes</b> para tu empresa, hogar o negocio.</h2>
-                            <a className="cmp-app-main-button mdf-appbg-primary mdf-clr-primary-on mdf-mb-md" data-aos="zoom-in">
+                            <a className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on mdf-mb-md" data-aos="zoom-in">
                                 contáctanos
                             </a>
                         </div>
@@ -21,22 +21,22 @@ export default function Index() {
             </section>
 
             <section className="app-wrapper-content mdf-py-xx">
-                <h2 className="cmp-index-title mdf-fnt-h1 mdf-mb-xl">DESARROLLO DE SITIOS WEB</h2>
+                <h2 className="lyt-index-title mdf-fnt-h1 mdf-mb-xl">DESARROLLO DE SITIOS WEB</h2>
                 <div className="row">
                     <div className="col-md-4 mdf-fnt-center">
                         <Image src="/images/undraw_proud_coder_re_exuy.svg" alt="Imagen pquetes de desarrollo web" className="mdf-img-responsive mdf-mb-lg" width={300} height={300} />
                     </div>
                     <div className="col-md-8">
                         <p className="mdf-fnt-h3 mdf-mb-lg mdf-mt-md">Desarrollamos sitios web profesionales, que cumplen con criterios de calidad de navegadores actuales usables y accesibles, lo que los hacen ideales para tu empresa, perfil o negocio.</p>
-                        <a href="/" className="cmp-app-main-button mdf-appbg-primary mdf-clr-primary-on" data-aos="zoom-in">Paquetes de desarrollo</a>
+                        <a href="/" className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on" data-aos="zoom-in">Paquetes de desarrollo</a>
                     </div>
                 </div>
             </section>
 
             <section className="mdf-bg-secondary">
                 <div className="app-wrapper-content mdf-py-xx">
-                    <h2 className="cmp-index-title mdf-fnt-h1 mdf-mb-xl">APORTES EN LA WEB</h2>
-                    <h3 className="cmp-index-subtitle mdf-fnt-h3 mdf-fnt-lighter mdf-mb-xl">Integramos y desarrollamos diferentes funciones para que logres conocer tus vivitantes, monetizar tu contenido con espacios publicitarios entre otras:</h3>
+                    <h2 className="lyt-index-title mdf-fnt-h1 mdf-mb-xl">APORTES EN LA WEB</h2>
+                    <h3 className="mdf-fnt-center mdf-fnt-h3 mdf-fnt-lighter mdf-mb-xl">Integramos y desarrollamos diferentes funciones para que logres conocer tus vivitantes, monetizar tu contenido con espacios publicitarios entre otras:</h3>
 
                     <div className="mdf-grd-lg">
                         <div className="cmp-simple-slate" data-aos="zoom-in">
@@ -74,22 +74,22 @@ export default function Index() {
             </section>
 
             <section className="app-wrapper-content mdf-py-xx">
-                <h2 className="cmp-index-title mdf-fnt-h1 mdf-mb-xl">MANTENIMIENTO DE CÓMPUTO</h2>
+                <h2 className="lyt-index-title mdf-fnt-h1 mdf-mb-xl">MANTENIMIENTO DE CÓMPUTO</h2>
                 <div className="row">
                     <div className="col-md-4 mdf-fnt-center">
                         <Image src="/images/undraw_bug_fixing_oc-7-a.svg" alt="Imagen servicios de mantenimiento" className="mdf-img-responsive mdf-mb-lg" width={300} height={300} />
                     </div>
                     <div className="col-md-8">
                         <p className="mdf-fnt-h3 mdf-mb-lg mdf-mt-md">Ofrememos mantenimiento preventivo y correctivo a dispositivos de cómputo, reposición de componentes, actualización de software, instalación de paquetería office, programas de licencia y limpieza de hardware crítico.</p>
-                        <a href="/" className="cmp-app-main-button mdf-appbg-primary mdf-clr-primary-on" data-aos="zoom-in">Obtener costos</a>
+                        <a href="/" className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on" data-aos="zoom-in">Obtener costos</a>
                     </div>
                 </div>
             </section>
 
             <section className="mdf-bg-secondary">
                 <div className="app-wrapper-content mdf-py-xx">
-                    <h2 className="cmp-index-title mdf-fnt-h1 mdf-mb-xl">FORMA DE TRABAJO</h2>
-                    <h3 className="cmp-index-subtitle mdf-fnt-h3 mdf-fnt-lighter mdf-mb-xl">Tenemos claro que juntos lograremos un excelente entregable, nos comprometemos a brindarle un servicio y atención de calidad, resaltando que en cada proyecto cuidamos:</h3>
+                    <h2 className="lyt-index-title mdf-fnt-h1 mdf-mb-xl">FORMA DE TRABAJO</h2>
+                    <h3 className="mdf-fnt-center mdf-fnt-h3 mdf-fnt-lighter mdf-mb-xl">Tenemos claro que juntos lograremos un excelente entregable, nos comprometemos a brindarle un servicio y atención de calidad, resaltando que en cada proyecto cuidamos:</h3>
 
                     <div className="mdf-grd-md">
                         <div className="cmp-simple-slate" data-aos="zoom-in">
@@ -118,7 +118,7 @@ export default function Index() {
 
 
             <div className="app-wrapper-content mdf-py-xx">
-                <h2 className="cmp-index-title mdf-fnt-h1 mdf-mb-xl">cámaras de videovigilancia</h2>
+                <h2 className="lyt-index-title mdf-fnt-h1 mdf-mb-xl">cámaras de videovigilancia</h2>
                 <div className="row">
                     <div className="col-md-4 mdf-fnt-center">
                         <Image src="/images/undraw_camera_re_cnp4.svg" alt="Imagen cámaras de video vigilancia" className="mdf-img-responsive mdf-mb-lg" width={300} height={300} />
@@ -130,7 +130,7 @@ export default function Index() {
                             <li><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Obtener grabaciones</li>
                             <li><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Detección de movimiento</li>
                         </ul>
-                        <a href="/" className="cmp-app-main-button mdf-appbg-primary mdf-clr-primary-on" data-aos="zoom-in">Obtener costos</a>
+                        <a href="/" className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on" data-aos="zoom-in">Obtener costos</a>
                     </div>
                 </div>
             </div>

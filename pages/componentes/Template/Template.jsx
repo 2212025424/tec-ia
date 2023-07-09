@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Script from 'next/script'
-import Navbar from '@/pages/componentes/Navbar/Navbar'
-import Footer from '@/pages/componentes/Footer/Footer'
+import Navbar from '@/pages/componentes/Template/Navbar'
+import Footer from '@/pages/componentes/Template/Footer'
 
 export default function Template({ children }) {
 

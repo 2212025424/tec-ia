@@ -1,25 +1,21 @@
-.cmp-index-main {
-    position: relative;
-}
-
-.cmp-index-main_content {
+.lyt-index-maincontent {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
 
-.cmp-index-main_title {
+.lyt-index-maintitle {
     line-height: 120%;
 }
 
-.cmp-index-title {
+.lyt-index-title {
     position: relative;
     text-align: center;
     text-transform: uppercase;
 }
 
-.cmp-index-title::before {
+.lyt-index-title::before {
     content: "";
     width: 100px;
     height: var(--cnt-brd-sm);
@@ -27,8 +23,4 @@
     bottom: -5px;
     left: calc(50% - 50px);
     background-color: var(--app-clr-primary);
-}
-
-.cmp-index-subtitle {
-    text-align: center;
 }

@@ -6,11 +6,11 @@ export default function Footer() {
         <footer className="mdf-appbg-primary mdf-clr-primary-on mdf-pt-lg mdf-pb-lg">
             <div className="app-wrapper-content mdf-grd-lg">
                 <div>
-                    <div className="mdf-grd-100-fr mdf-mb-lg">
+                    <div className="lyt-grd-100-fr mdf-mb-lg">
                         <Image src="/app-light-icon.svg" alt="Icono de la aplicacion" className="mdf-img-responsive mdf-pt-sm" width={90} height={90} />
                         <div>
                             <h2 className="mdf-fnt-xl mdf-mb-sm">{process.env.appName}</h2>
-                            <a href="/" className="cmp-simple-button"  data-aos="zoom-out">contáctanos</a>
+                            <a href="/" className="cmp-simple-button" data-aos="zoom-out">contáctanos</a>
                         </div>
                     </div>
                     <p className="mdf-fnt-h3">Servicios de Tecnologías de la Información que aportan soluciones eficientes para tu empresa, hogar o negocio.</p>

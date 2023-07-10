@@ -1,4 +1,4 @@
-export default function Nosotros () {
+export default function Nosotros() {
     return (
         <>Que onda que onda</>
     )

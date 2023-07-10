@@ -9,8 +9,8 @@ export default function Index() {
                         <div className="col-md-7 lyt-index-maincontent">
                             <h1 className="lyt-index-maintitle mdf-fnt-xx mdf-mb-lg">Tecnologías de la Información</h1>
                             <h2 className="mdf-fnt-h3 mdf-fnt-lighter mdf-mb-xl">Servicios de Tecnologías de la Información que aportan <b>soluciones eficientes</b> para tu empresa, hogar o negocio.</h2>
-                            <a className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on mdf-mb-md" data-aos="zoom-in">
-                                contáctanos
+                            <a href={`tel:${process.env.appPhone}`} className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on mdf-mb-md">
+                                Contáctanos
                             </a>
                         </div>
                         <div className="col-md-5 mdf-fnt-center mdf-pt-md">

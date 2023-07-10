@@ -9,7 +9,7 @@ export default function Index() {
                         <div className="col-md-7 lyt-index-maincontent">
                             <h1 className="lyt-index-maintitle mdf-fnt-xx mdf-mb-lg">Tecnologías de la Información</h1>
                             <h2 className="mdf-fnt-h3 mdf-fnt-lighter mdf-mb-xl">Servicios de Tecnologías de la Información que aportan <b>soluciones eficientes</b> para tu empresa, hogar o negocio.</h2>
-                            <a className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on mdf-mb-md" data-aos="zoom-in" data-aos-duration="600">
+                            <a className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on mdf-mb-md" data-aos="zoom-in">
                                 contáctanos
                             </a>
                         </div>
@@ -29,7 +29,7 @@ export default function Index() {
                         </div>
                         <div className="col-md-8">
                             <p className="mdf-fnt-h3 mdf-mb-lg mdf-mt-md">Ofrememos mantenimiento preventivo y correctivo a dispositivos de cómputo, reposición de componentes, actualización de software, instalación de paquetería office, programas de licencia y limpieza de hardware crítico.</p>
-                            <a href="/" className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on" data-aos="zoom-in" data-aos-duration="600">Obtener costos</a>
+                            <a href="/" className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on" data-aos="zoom-in">Obtener costos</a>
                         </div>
                     </div>
                 </section>
@@ -44,7 +44,7 @@ export default function Index() {
                         </div>
                         <div className="col-md-8">
                             <p className="mdf-fnt-h3 mdf-mb-lg mdf-mt-md">Desarrollamos sitios web profesionales, que cumplen con criterios de calidad de navegadores actuales usables y accesibles, lo que los hacen ideales para tu empresa, perfil o negocio.</p>
-                            <a href="/" className="cmp-main-button mdf-bg-primary mdf-clr-dark" data-aos="zoom-in" data-aos-duration="600">Paquetes de desarrollo</a>
+                            <a href="/" className="cmp-main-button mdf-bg-primary mdf-clr-dark" data-aos="zoom-in">Paquetes de desarrollo</a>
                         </div>
                     </div>
                 </div>
@@ -104,7 +104,7 @@ export default function Index() {
                                 <li><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Obtener grabaciones</li>
                                 <li><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Detección de movimiento</li>
                             </ul>
-                            <a href="/" className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on" data-aos="zoom-in" data-aos-duration="600">Obtener costos</a>
+                            <a href="/" className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on" data-aos="zoom-in">Obtener costos</a>
                         </div>
                     </div>
                 </div>

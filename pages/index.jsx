@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Index() {
     return (
@@ -29,7 +30,7 @@ export default function Index() {
                         </div>
                         <div className="col-md-8">
                             <p className="mdf-fnt-h3 mdf-mb-lg mdf-mt-md">Ofrememos mantenimiento preventivo y correctivo a dispositivos de cómputo, reposición de componentes, actualización de software, instalación de paquetería office, programas de licencia y limpieza de hardware crítico.</p>
-                            <a href="/" className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on" data-aos="zoom-in">Obtener costos</a>
+                            <Link href="/mantenimiento" className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on" data-aos="zoom-in">Obtener costos</Link>
                         </div>
                     </div>
                 </section>
@@ -44,7 +45,7 @@ export default function Index() {
                         </div>
                         <div className="col-md-8">
                             <p className="mdf-fnt-h3 mdf-mb-lg mdf-mt-md">Desarrollamos sitios web profesionales, que cumplen con criterios de calidad de navegadores actuales usables y accesibles, lo que los hacen ideales para tu empresa, perfil o negocio.</p>
-                            <a href="/" className="cmp-main-button mdf-bg-primary mdf-clr-dark" data-aos="zoom-in">Paquetes de desarrollo</a>
+                            <Link href="/desarrollo-web" className="cmp-main-button mdf-bg-primary mdf-clr-dark" data-aos="zoom-in">Paquetes de desarrollo</Link>
                         </div>
                     </div>
                 </div>
@@ -104,7 +105,7 @@ export default function Index() {
                                 <li><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Obtener grabaciones</li>
                                 <li><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Detección de movimiento</li>
                             </ul>
-                            <a href="/" className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on" data-aos="zoom-in">Obtener costos</a>
+                            <Link href="/videovigilancia" className="cmp-main-button mdf-appbg-primary mdf-clr-primary-on" data-aos="zoom-in">Obtener costos</Link>
                         </div>
                     </div>
                 </div>

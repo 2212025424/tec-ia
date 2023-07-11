@@ -25,7 +25,7 @@ export default function Navbar() {
     return (
         <div className="lyt-navbar-wrapper mdf-appbg-primary mdf-clr-primary-on">
             <nav className="lyt-navbar">
-                <h1 className="mdf-fnt-lg">{process.env.appName}</h1>
+                <Link href="/"><h1 className="mdf-fnt-lg">{process.env.appName}</h1></Link>
                 <ul className="lyt-navbar-items mdf-fnt-sm mdf-fnt-uppercase">
                     <li className={`lyt-navbar-item mdf-p-xm ${isActive("/")}`}><Link href="/">Inicio</Link></li>
                     <li className={`lyt-navbar-item mdf-p-xm ${isActive("/nosotros")}`}><Link href="/nosotros">Nosotros</Link></li>

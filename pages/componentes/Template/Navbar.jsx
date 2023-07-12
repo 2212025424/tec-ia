@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import Link from "next/link"
 import { useRouter } from "next/router"
-
+import Button from "../Button"
 
 export default function Navbar() {
 
@@ -39,7 +39,7 @@ export default function Navbar() {
                     </li>
                     <li className={`lyt-navbar-item mdf-p-xm ${isActive("/blog")}`}><Link href="/blog">Noticias</Link></li>
                 </ul>
-                <Link href={`tel:${process.env.appPhone}`} className="lyt-navbar-button cmp-simple-button">contáctanos</Link>
+                <Button type="call" styles="lyt-navbar-button cmp-simple-button">Contáctanos</Button>
                 <div className="lyt-sidebar-toggler mdf-no-userselect">
                     <i className="fa-solid fa-bars mdf-fnt-h1 mdf-pr-sm" onClick={() => setShowSidebar(true)}></i>
                 </div>

@@ -30,6 +30,20 @@
     width: 100%;
 }
 
+.mdf-w-90 {
+    width: 90%;
+}
+
+.mdf-w-80 {
+    width: 80%;
+}
+
+.mdf-w-70 {
+    width: 70%;
+}
+
+
+
 
 /*-----------------------------------------------------------------------------------------------------------------------------------
 /*-----| APP COLORS
@@ -185,7 +199,7 @@
 
 .mdf-grd-xm {
     display: grid;
-    gap: var(--cnt-spc-lg);
+    gap: var(--cnt-spc-sm);
     grid-template-columns: repeat(auto-fit, minmax(var(--cnt-grd-xm), 1fr));
 }
 

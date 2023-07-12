@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import Button from "../Button"
 
 export default function Footer() {
     return (
@@ -10,7 +11,7 @@ export default function Footer() {
                         <Image src="/app-light-icon.svg" alt="Icono de la aplicacion" className="mdf-img-responsive mdf-pt-sm" width={90} height={90} />
                         <div>
                             <h2 className="mdf-fnt-xl mdf-mb-sm">{process.env.appName}</h2>
-                            <a href={`tel:${process.env.appPhone}`} className="cmp-simple-button">contáctanos</a>
+                            <Button type="call" styles="cmp-simple-button">Contáctanos</Button>
                         </div>
                     </div>
                     <p className="mdf-fnt-h3">Servicios de Tecnologías de la Información que aportan soluciones eficientes para tu empresa, hogar o negocio.</p>

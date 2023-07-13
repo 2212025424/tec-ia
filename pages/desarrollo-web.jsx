@@ -89,7 +89,7 @@ export default function Desarrollo() {
                     <div className="row">
                         <div className="col-md-4 mdf-fnt-center">
                             <Image src="/images/undraw_web_shopping_re_owap.svg" alt="Imagen de tienda en línea" className="mdf-img-responsive mdf-mb-lg" width={300} height={300} />
-                            <Button type="wp" text="Hola, me interesa el paquete Emprendedor, requiero más información." styles="cmp-main-button mdf-w-80 mdf-appbg-secondary mdf-clr-secondary-on mdf-mb-lg">Solicitar información</Button>
+                            <Button type="wp" text="Hola, me interesa el paquete Tienda en línea, requiero más información." styles="cmp-main-button mdf-w-80 mdf-appbg-secondary mdf-clr-secondary-on mdf-mb-lg">Solicitar información</Button>
                         </div>
                         <div className="col-md-8">
                             <p className="mdf-fnt-h3 mdf-mb-md">Te permite cerrar ventas a través de internet, olvida tener que estar pendiente para atender a un cliente, te damos la facilidad de ofertar tus productos y servicios desde un sitio completo. Esto es lo que incluímos:</p>
@@ -189,17 +189,17 @@ export default function Desarrollo() {
                     </div>
 
                     <div className="mdf-grd-lg">
-                        <div className="cmp-simple-slate" data-aos="zoom-in">
+                        <div className="cmp-simple-slate">
                             <h3 className="mdf-fnt-md mdf-mb-md">Google Ad Manager</h3>
                             <p className="mdf-fnt-sm mdf-mb-lg">Agregamos capañas publicitarias a tu sitio en espacios estratégicos para que logres generar dinero con tu contenido.</p>
                             <figure className="mdf-fnt-center"><Image src="/images/undraw_finance_re_gnv2.svg" alt="Imagen de integración de Google Ad Manager" className="mdf-img-responsive" width={250} height={250} /></figure>
                         </div>
-                        <div className="cmp-simple-slate" data-aos="zoom-in">
+                        <div className="cmp-simple-slate">
                             <h3 className="mdf-fnt-md mdf-mb-md">Google Analytics</h3>
                             <p className="mdf-fnt-sm mdf-mb-lg">Implementamos funciones que nos permitan medir el tráfico de tu sitio web, así logras concer más a tus visitantes.</p>
                             <figure className="mdf-fnt-center"><Image src="/images/undraw_real_time_analytics_re_yliv.svg" alt="Imagen de integración de GA" className="mdf-img-responsive" width={180} height={180} /></figure>
                         </div>
-                        <div className="cmp-simple-slate" data-aos="zoom-in">
+                        <div className="cmp-simple-slate">
                             <h3 className="mdf-fnt-md mdf-mb-md">Google Search Console</h3>
                             <p className="mdf-fnt-sm mdf-mb-lg">Ponemos en marcha un análisis de URL's buenas, amigables y optimizadas, para así detectar debilidades de tu sitio web.</p>
                             <figure className="mdf-fnt-center"><Image src="/images/undraw_site_stats_re_ejgy.svg" alt="Imagen de integración de Google Search Console" className="mdf-img-responsive" width={220} height={220} /></figure>

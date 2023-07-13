@@ -9,7 +9,7 @@ export default function Mantenimiento() {
                 <div className="app-wrapper-content mdf-py-xx">
                     <div className="row">
                         <div className="col-md-7 lyt-index-maincontent">
-                            <h1 className="lyt-index-maintitle mdf-fnt-xx mdf-mb-lg">Mantenimiento preventivo y correctivo</h1>
+                            <h1 className="lyt-index-maintitle mdf-fnt-xx mdf-mb-lg">Servicio a equipos de cómputo</h1>
                             <h2 className="mdf-fnt-h3 mdf-fnt-lighter mdf-mb-xl">Damos mantenimiento a todos los dispositivos de cómputo con la finalidad de alargar la vida últil del mismo</h2>
                             <Button type="call" styles="cmp-main-button mdf-appbg-primary mdf-clr-primary-on mdf-mb-md">Contáctanos</Button>
                         </div>

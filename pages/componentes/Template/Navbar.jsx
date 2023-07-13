@@ -10,9 +10,16 @@ export default function Navbar() {
     const [showSidebar, setShowSidebar] = useState(false)
     const [showSubmenu, setShowSubmenu] = useState(false)
 
-    const isActive = (path) => (
-        (router.pathname == path) ? 'active' : ''
-    )
+    const isActive = (...paths) => {
+        var active = ''
+        paths.forEach((path) => {
+            if (router.pathname == path) {
+                active = 'active'
+                return
+            }
+        })
+        return active
+    }
 
     useEffect(() => {
 
@@ -29,7 +36,7 @@ export default function Navbar() {
                 <ul className="lyt-navbar-items mdf-fnt-sm mdf-fnt-uppercase">
                     <li className={`lyt-navbar-item mdf-p-xm ${isActive("/")}`}><Link href="/">Inicio</Link></li>
                     <li className={`lyt-navbar-item mdf-p-xm ${isActive("/nosotros")}`}><Link href="/nosotros">Nosotros</Link></li>
-                    <li className={`lyt-navbar-item mdf-p-xm mdf-no-userselect ${isActive("/desarrollo-web")}`} onClick={() => setShowSubmenu(!showSubmenu)}>
+                    <li className={`lyt-navbar-item mdf-p-xm mdf-no-userselect ${isActive("/desarrollo-web", "/mantenimiento", "/videovigilancia")}`} onClick={() => setShowSubmenu(!showSubmenu)}>
                         <span>Servicios</span>
                         <ul className={`lyt-navbar-submenu mdf-rounded mdf-p-sm mdf-bg-primary mdf-clr-dark ${(showSubmenu ?? 'active')} ${showSubmenu ? 'active' : ''}`}>
                             <li className="mdf-pb-xm"><Link href="/desarrollo-web">Desarrollo web</Link></li>

@@ -126,22 +126,22 @@ export default function Index() {
                     <h3 className="mdf-fnt-center mdf-fnt-h3 mdf-fnt-lighter mdf-mb-xl">Tenemos claro que juntos lograremos un excelente entregable, nos comprometemos a brindarle un servicio y atención de calidad, resaltando que en cada proyecto cuidamos:</h3>
 
                     <div className="mdf-grd-md">
-                        <div className="cmp-simple-slate" data-aos="zoom-in">
+                        <div className="cmp-simple-slate">
                             <h3 className="mdf-fnt-md mdf-fnt-center mdf-mb-sm">Identificar necesidades</h3>
                             <figure className="mdf-fnt-center mdf-mb-md"><Image src="/images/icons8-find-96.svg" alt="Imagen de identificar necesidades" className="mdf-img-responsive" width={80} height={80} /></figure>
                             <p className="mdf-fnt-sm">Nos detenemos a identificar las necesidades de su perfil, negocio o empresa.</p>
                         </div>
-                        <div className="cmp-simple-slate" data-aos="zoom-in">
+                        <div className="cmp-simple-slate">
                             <h3 className="mdf-fnt-md mdf-fnt-center mdf-mb-sm">Evaluar competencia</h3>
                             <figure className="mdf-fnt-center mdf-mb-md"><Image src="/images/icons8-competition-96.svg" alt="Imagen de evaluar competencia" className="mdf-img-responsive" width={90} height={90} /></figure>
                             <p className="mdf-fnt-sm">Evaluamos la presencia de tu competencia en internet, para lograr posicionarte con nivel.</p>
                         </div>
-                        <div className="cmp-simple-slate" data-aos="zoom-in">
+                        <div className="cmp-simple-slate">
                             <h3 className="mdf-fnt-md mdf-fnt-center mdf-mb-sm">Desarrollar proyecto</h3>
                             <figure className="mdf-fnt-center mdf-mb-md"><Image src="/images/icons8-llave-96.svg" alt="Imagen de desarrollar proyecto" className="mdf-img-responsive" width={90} height={90} /></figure>
                             <p className="mdf-fnt-sm">Nos aseguramos de que todas tus necesidades se vayan cubriendo en cada iteración.</p>
                         </div>
-                        <div className="cmp-simple-slate" data-aos="zoom-in">
+                        <div className="cmp-simple-slate">
                             <h3 className="mdf-fnt-md mdf-fnt-center mdf-mb-sm">Detallar resultados</h3>
                             <figure className="mdf-fnt-center mdf-mb-md"><Image src="/images/icons8-test-aprobado-96.svg" alt="Imagen de detallar resultados" className="mdf-img-responsive" width={90} height={90} /></figure>
                             <p className="mdf-fnt-sm">Entregamos todos los recursos necesarios que implica el despliegue de tu proyecto.</p>

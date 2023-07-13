@@ -50,9 +50,9 @@ export default function Desarrollo() {
                             <h3 className="mdf-fnt-h2 mdf-mb-md">Emprendedor</h3>
                             <p className="mdf-fnt-md mdf-clr-light mdf-mb-md">Ideal para dar a conocer su empresa de manera profesional y ofertar productos o servicios</p>
                             <h2 className="mdf-fnt-lg mdf-clr-secondary mdf-mb-md">$ 7,500.00</h2>
-                            <p className="mdf-fnt-md mdf-mb-sm"><i class="fa-regular fa-thumbs-up mdf-clr-secondary mdf-mr-xm"></i> Hasta 5 secciones</p>
+                            <p className="mdf-fnt-md mdf-mb-sm"><i className="fa-regular fa-thumbs-up mdf-clr-secondary mdf-mr-xm"></i> Hasta 5 secciones</p>
                             <p className="mdf-fnt-md mdf-mb-sm">Hosting y dominio por un año</p>
-                            <p className="mdf-fnt-md mdf-mb-sm"><i class="fa-regular fa-thumbs-up mdf-clr-secondary mdf-mr-xm"></i> Formulario de contacto</p>
+                            <p className="mdf-fnt-md mdf-mb-sm"><i className="fa-regular fa-thumbs-up mdf-clr-secondary mdf-mr-xm"></i> Formulario de contacto</p>
                             <p className="mdf-fnt-md mdf-mb-sm">Enlace a sus redes sociales</p>
                             <p className="mdf-fnt-md mdf-mb-sm">Imagen de portada</p>
                             <p className="mdf-fnt-md mdf-mb-sm">Mapa de ubicación con google</p>
@@ -61,21 +61,21 @@ export default function Desarrollo() {
                             <p className="mdf-fnt-md mdf-mb-md">Galería de imágenes max. 10</p>
                             <div className="mdf-grd-xm">
                                 <Button type="call" styles="cmp-main-button mdf-w-100 mdf-appbg-secondary mdf-clr-secondary-on">Llamanos</Button>
-                                <Button type="wp" text="Hola, me interesa el paquete Emprendedor, requiero más información." styles="cmp-main-button mdf-w-100 mdf-appbg-secondary mdf-clr-secondary-on">Escríbenos</Button>
+                                <Button type="wp" text="Hola, me interesa el paquete Emprendedor, requiero más información." styles="cmp-main-button mdf-w-100 mdf-appbg-secondary mdf-clr-secondary-on">Información</Button>
                             </div>
                         </div>
                         <div className="cmp-simple-slate mdf-fnt-center" data-aos="zoom-in">
                             <h3 className="mdf-fnt-h2 mdf-mb-md">Empresarial</h3>
                             <p className="mdf-fnt-md mdf-clr-light mdf-mb-md">Ideal cuando una empresa o negocio requiere comenzar a tener presencia en internet</p>
                             <h2 className="mdf-fnt-lg mdf-clr-secondary mdf-mb-md">$ 15,000.00</h2>
-                            <p className="mdf-fnt-md mdf-mb-sm"><i class="fa-regular fa-thumbs-up mdf-clr-secondary mdf-mr-xm"></i> Hasta 10 secciones</p>
+                            <p className="mdf-fnt-md mdf-mb-sm"><i className="fa-regular fa-thumbs-up mdf-clr-secondary mdf-mr-xm"></i> Hasta 10 secciones</p>
                             <p className="mdf-fnt-md mdf-mb-sm">Hosting y dominio por un año</p>
                             <p className="mdf-fnt-md mdf-mb-sm">Formulario de contacto</p>
                             <p className="mdf-fnt-md mdf-mb-sm">Enlace a sus redes sociales</p>
-                            <p className="mdf-fnt-md mdf-mb-sm"><i class="fa-regular fa-thumbs-up mdf-clr-secondary mdf-mr-xm"></i> Imagen de portada dinámica</p>
+                            <p className="mdf-fnt-md mdf-mb-sm"><i className="fa-regular fa-thumbs-up mdf-clr-secondary mdf-mr-xm"></i> Imagen de portada dinámica</p>
                             <p className="mdf-fnt-md mdf-mb-sm">Mapa de ubicación con google</p>
                             <p className="mdf-fnt-md mdf-mb-sm">Testimonios y novedades Máx. 10</p>
-                            <p className="mdf-fnt-md mdf-mb-sm"><i class="fa-regular fa-thumbs-up mdf-clr-secondary mdf-mr-xm"></i> Blog corporativo</p>
+                            <p className="mdf-fnt-md mdf-mb-sm"><i className="fa-regular fa-thumbs-up mdf-clr-secondary mdf-mr-xm"></i> Blog corporativo</p>
                             <p className="mdf-fnt-md mdf-mb-md">Galería de imágenes max. 10</p>
                             <Button type="wp" text="Hola, me interesa el paquete empresarial, requiero más información." styles="cmp-main-button mdf-w-100 mdf-appbg-secondary mdf-clr-secondary-on">Solicitar información</Button>
                         </div>
@@ -185,7 +185,7 @@ export default function Desarrollo() {
 
                     <div className="mdf-fnt-center mdf-mb-xl">
                         <Button type="wp" text="Hola, me interesa la integración de una herramienta de google a mi sitio, requiero más información." styles="cmp-main-button mdf-appbg-secondary mdf-clr-secondary-on mdf-mr-md">Escríbenos</Button>
-                        <Button styles="cmp-main-button mdf-appbg-secondary mdf-clr-secondary-on">Llámanos</Button>
+                        <Button type="call" styles="cmp-main-button mdf-appbg-secondary mdf-clr-secondary-on">Llámanos</Button>
                     </div>
 
                     <div className="mdf-grd-lg">

@@ -171,7 +171,7 @@ export default function Desarrollo() {
                                 <li><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Respaldo de información</li>
                                 <li><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Modificar estructuras</li>
                                 <li><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Hacer análisis de calidad</li>
-                                <li><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Integrar herramientas de terceros (Google Analytics, Google Search Cosole, Google Ad Manager, etc.)</li>
+                                <li><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Integrar herramientas de terceros (Google Analytics, Google Search Console, Google Ad Manager, etc.)</li>
                             </ul>
                         </div>
                     </div>

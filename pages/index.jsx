@@ -20,8 +20,8 @@ export default function Index() {
                 </div>
             </section>
 
-            <div className="mdf-bg-primary">
-                <section className="app-wrapper-content mdf-py-xx">
+            <section className="mdf-bg-primary">
+                <div className="app-wrapper-content mdf-py-xx">
                     <h2 className="lyt-index-title mdf-fnt-h1 mdf-mb-xl">MANTENIMIENTO DE CÓMPUTO</h2>
                     <div className="row">
                         <div className="col-md-4 mdf-fnt-center">
@@ -32,8 +32,8 @@ export default function Index() {
                             <Link href="/mantenimiento" className="cmp-main-button mdf-appbg-secondary mdf-clr-secondary-on" data-aos="zoom-in">Obtener costos</Link>
                         </div>
                     </div>
-                </section>
-            </div>
+                </div>
+            </section>
 
             <section className="mdf-appbg-secondary mdf-clr-secondary-on">
                 <div className="app-wrapper-content mdf-py-xx">

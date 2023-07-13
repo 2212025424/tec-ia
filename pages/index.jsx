@@ -40,7 +40,7 @@ export default function Index() {
                     <h2 className="lyt-index-title mdf-fnt-h1 mdf-mb-xl">DESARROLLO DE SITIOS WEB</h2>
                     <div className="row">
                         <div className="col-md-4 mdf-fnt-center">
-                            <Image src="/images/undraw_proud_coder_re_exuy.svg" alt="Imagen pquetes de desarrollo web" className="mdf-img-responsive mdf-mb-lg" width={300} height={300} />
+                            <Image src="/images/undraw_proud_coder_re_exuy.svg" alt="Imagen paquetes de desarrollo web" className="mdf-img-responsive mdf-mb-lg" width={300} height={300} />
                         </div>
                         <div className="col-md-8">
                             <p className="mdf-fnt-h3 mdf-mb-lg mdf-mt-md">Desarrollamos sitios web profesionales, que cumplen con criterios de calidad de navegadores actuales, usables y accesibles, lo que los hace ideales para tu empresa, perfil o negocio.</p>

@@ -19,7 +19,7 @@ export default function Desarrollo() {
                             </ul>
                         </div>
                         <div className="col-md-5 mdf-fnt-center mdf-pt-xl">
-                            <Image src="/images/undraw_responsive_re_e1nn.svg" alt="Imagen de programación web" className="mdf-img-responsive" width={400} height={400} priority />
+                            <Image src="/images/undraw_responsive_re_e1nn.svg" alt="Imagen de desarrollo web" className="mdf-img-responsive" width={400} height={400} priority />
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ export default function Desarrollo() {
                     <h2 className="lyt-index-title mdf-fnt-h1 mdf-mb-xl">Tienda en línea</h2>
                     <div className="row">
                         <div className="col-md-4 mdf-fnt-center">
-                            <Image src="/images/undraw_web_shopping_re_owap.svg" alt="Imagen servicios de mantenimiento" className="mdf-img-responsive mdf-mb-lg" width={300} height={300} />
+                            <Image src="/images/undraw_web_shopping_re_owap.svg" alt="Imagen de tienda en línea" className="mdf-img-responsive mdf-mb-lg" width={300} height={300} />
                             <Button type="wp" text="Hola, me interesa el paquete Emprendedor, requiero más información." styles="cmp-main-button mdf-w-80 mdf-appbg-secondary mdf-clr-secondary-on mdf-mb-lg">Solicitar información</Button>
                         </div>
                         <div className="col-md-8">
@@ -112,7 +112,7 @@ export default function Desarrollo() {
                     <h2 className="mdf-fnt-h2 mdf-fnt-lighter mdf-mb-md">Podemos ayudarte a desarrollar tus ideas, escríbenos o realiza una llamada directa.</h2>
                     <h2 className="mdf-fnt-h2 mdf-fnt-lighter mdf-mb-xl">¡ Estamos dispuestos a resolver tus dudas !</h2>
                     <Button type="call" styles="cmp-main-button mdf-mr-lg mdf-bg-primary mdf-clr-dark">Llámanos</Button>
-                    <Button type="wp" text="Hola, estoy interesado en un proyecto, requiero más información." styles="cmp-main-button mdf-bg-primary mdf-clr-dark">Escríbenos</Button>
+                    <Button type="wp" text="Hola, estoy interesado en un proyecto web, requiero más información." styles="cmp-main-button mdf-bg-primary mdf-clr-dark">Escríbenos</Button>
                 </div>
             </section>
 
@@ -125,32 +125,32 @@ export default function Desarrollo() {
                         <div className="cmp-simple-slate" data-aos="zoom-in">
                             <h3 className="mdf-fnt-md mdf-mb-md">Diseño responsivo</h3>
                             <p className="mdf-fnt-sm mdf-mb-lg">En todo diseño se contempla que las interfaces puedan adaptarse a distintas medidas de dispositivos con los que un usuario podría acceder a su contenido.</p>
-                            <figure className="mdf-fnt-center"><Image src="/images/undraw_real_time_sync_re_nky7.svg" alt="Imagen de diseño web" className="mdf-img-responsive" width={130} height={130} /></figure>
+                            <figure className="mdf-fnt-center"><Image src="/images/undraw_real_time_sync_re_nky7.svg" alt="Imagen de diseño responsivo" className="mdf-img-responsive" width={130} height={130} /></figure>
                         </div>
                         <div className="cmp-simple-slate" data-aos="zoom-in">
-                            <h3 className="mdf-fnt-md mdf-mb-md">Desarrollo personalizado</h3>
+                            <h3 className="mdf-fnt-md mdf-mb-md">Diseño personalizado</h3>
                             <p className="mdf-fnt-sm mdf-mb-lg">Con base en sus necesidades y criterios se determinan los diseños apropiados para su negocio o empresa, contemplando criterios de usabilidad y accesibilidad.</p>
-                            <figure className="mdf-fnt-center"><Image src="/images/undraw_building_blocks_re_5ahy.svg" alt="Imagen de desarrollo web" className="mdf-img-responsive" width={115} height={115} /></figure>
+                            <figure className="mdf-fnt-center"><Image src="/images/undraw_building_blocks_re_5ahy.svg" alt="Imagen de diseño personalizado" className="mdf-img-responsive" width={115} height={115} /></figure>
                         </div>
                         <div className="cmp-simple-slate" data-aos="zoom-in">
                             <h3 className="mdf-fnt-md mdf-mb-md">Optimización de SEO</h3>
                             <p className="mdf-fnt-sm mdf-mb-lg">Se contemplan los criterios de calidad actuales propuestos por la comunidad de Google, porque estos tienen como finalidad servir contenido de forma óptima.</p>
-                            <figure className="mdf-fnt-center"><Image src="/images/undraw_search_re_x5gq.svg" alt="Imagen de mantenimiento de cómputo" className="mdf-img-responsive" width={135} height={135} /></figure>
+                            <figure className="mdf-fnt-center"><Image src="/images/undraw_search_re_x5gq.svg" alt="Imagen de optimizaión de SEO" className="mdf-img-responsive" width={135} height={135} /></figure>
                         </div>
                         <div className="cmp-simple-slate" data-aos="zoom-in">
                             <h3 className="mdf-fnt-md mdf-mb-md">Código optimizado</h3>
                             <p className="mdf-fnt-sm mdf-mb-lg">Cada una de sus solicitudes se desarrollan con las mejores prácticas de programación con la finalidad de hacer que su aplicación funcione de manera eficiente.</p>
-                            <figure className="mdf-fnt-center"><Image src="/images/undraw_proud_coder_re_exuy.svg" alt="Imagen de monetización web" className="mdf-img-responsive" width={170} height={170} /></figure>
+                            <figure className="mdf-fnt-center"><Image src="/images/undraw_proud_coder_re_exuy.svg" alt="Imagen de código optimizado" className="mdf-img-responsive" width={170} height={170} /></figure>
                         </div>
                         <div className="cmp-simple-slate" data-aos="zoom-in">
                             <h3 className="mdf-fnt-md mdf-mb-md">Soporte y capacitación</h3>
                             <p className="mdf-fnt-sm mdf-mb-lg">Conluído el proyecto, ofrecemos soporte y capacitación para el uso correcto, conocerá los términos más relevantes de la web y la tecnología de su proyecto.</p>
-                            <figure className="mdf-fnt-center"><Image src="/images/undraw_teaching_re_g7e3.svg" alt="Imagen de análisis de tráfico" className="mdf-img-responsive" width={150} height={150} /></figure>
+                            <figure className="mdf-fnt-center"><Image src="/images/undraw_teaching_re_g7e3.svg" alt="Imagen de soporte y capacitación" className="mdf-img-responsive" width={150} height={150} /></figure>
                         </div>
                         <div className="cmp-simple-slate" data-aos="zoom-in">
                             <h3 className="mdf-fnt-md mdf-mb-md">Soporte SSL</h3>
                             <p className="mdf-fnt-sm mdf-mb-lg">En la puesta en producción se brinda un certificado de seguridad (SSL), para que así nuestra información se mantenga integra a cualquier amenaza en la red.</p>
-                            <figure className="mdf-fnt-center"><Image src="/images/undraw_secure_login_pdn4.svg" alt="Imagen de sitios de calidad" className="mdf-img-responsive" width={150} height={150} /></figure>
+                            <figure className="mdf-fnt-center"><Image src="/images/undraw_secure_login_pdn4.svg" alt="Imagen de soporte SSL" className="mdf-img-responsive" width={150} height={150} /></figure>
                         </div>
                     </div>
                 </div>
@@ -161,8 +161,8 @@ export default function Desarrollo() {
                     <h2 className="lyt-index-title mdf-fnt-h1 mdf-mb-xl">Mantenimiento de sitios web</h2>
                     <div className="row">
                         <div className="col-md-4 mdf-fnt-center">
-                            <Image src="/images/undraw_building_websites_i78t.svg" alt="Imagen servicios de mantenimiento" className="mdf-img-responsive mdf-mb-lg" width={300} height={300} />
-                            <Button type="wp" text="Hola, me interesa el paquete Emprendedor, requiero más información." styles="cmp-main-button mdf-appbg-secondary mdf-clr-secondary-on mdf-mb-lg mdf-mr-md mdf-w-80">Solicitar información</Button>
+                            <Image src="/images/undraw_building_websites_i78t.svg" alt="Imagen de mantenimiento de sitios web" className="mdf-img-responsive mdf-mb-lg" width={300} height={300} />
+                            <Button type="wp" text="Hola, me interesa el mantenimiento de un sitio, requiero más información." styles="cmp-main-button mdf-appbg-secondary mdf-clr-secondary-on mdf-mb-lg mdf-mr-md mdf-w-80">Solicitar información</Button>
                         </div>
                         <div className="col-md-8">
                             <p className="mdf-fnt-h3 mdf-mb-md">Si ya cuentas con un sitio y tus planes apuntan a hacer cambios de contenido, remodelar diseño, o implementar medidas de seguridad adicionales, ofrecemos:</p>
@@ -184,25 +184,25 @@ export default function Desarrollo() {
                     <h3 className="mdf-fnt-center mdf-fnt-h3 mdf-fnt-lighter mdf-mb-lg">Podemos integrar herramientas de google que nos ayudan  lograr un proyecto de mayor calidad.</h3>
 
                     <div className="mdf-fnt-center mdf-mb-xl">
-                        <Button type="wp" text="Hola, me interesa el paquete Emprendedor, requiero más información." styles="cmp-main-button mdf-appbg-secondary mdf-clr-secondary-on mdf-mr-md">Escríbenos</Button>
-                        <Button type="call" text="Hola, me interesa el paquete Emprendedor, requiero más información." styles="cmp-main-button mdf-appbg-secondary mdf-clr-secondary-on">Llámanos</Button>
+                        <Button type="wp" text="Hola, me interesa la integración de una herramienta de google a mi sitio, requiero más información." styles="cmp-main-button mdf-appbg-secondary mdf-clr-secondary-on mdf-mr-md">Escríbenos</Button>
+                        <Button styles="cmp-main-button mdf-appbg-secondary mdf-clr-secondary-on">Llámanos</Button>
                     </div>
 
                     <div className="mdf-grd-lg">
                         <div className="cmp-simple-slate" data-aos="zoom-in">
                             <h3 className="mdf-fnt-md mdf-mb-md">Google Ad Manager</h3>
                             <p className="mdf-fnt-sm mdf-mb-lg">Agregamos capañas publicitarias a tu sitio en espacios estratégicos para que logres generar dinero con tu contenido.</p>
-                            <figure className="mdf-fnt-center"><Image src="/images/undraw_finance_re_gnv2.svg" alt="Imagen de monetización web" className="mdf-img-responsive" width={250} height={250} /></figure>
+                            <figure className="mdf-fnt-center"><Image src="/images/undraw_finance_re_gnv2.svg" alt="Imagen de integración de Google Ad Manager" className="mdf-img-responsive" width={250} height={250} /></figure>
                         </div>
                         <div className="cmp-simple-slate" data-aos="zoom-in">
                             <h3 className="mdf-fnt-md mdf-mb-md">Google Analytics</h3>
                             <p className="mdf-fnt-sm mdf-mb-lg">Implementamos funciones que nos permitan medir el tráfico de tu sitio web, así logras concer más a tus visitantes.</p>
-                            <figure className="mdf-fnt-center"><Image src="/images/undraw_real_time_analytics_re_yliv.svg" alt="Imagen de análisis de tráfico" className="mdf-img-responsive" width={180} height={180} /></figure>
+                            <figure className="mdf-fnt-center"><Image src="/images/undraw_real_time_analytics_re_yliv.svg" alt="Imagen de integración de GA" className="mdf-img-responsive" width={180} height={180} /></figure>
                         </div>
                         <div className="cmp-simple-slate" data-aos="zoom-in">
                             <h3 className="mdf-fnt-md mdf-mb-md">Google Search Console</h3>
                             <p className="mdf-fnt-sm mdf-mb-lg">Ponemos en marcha un análisis de URL's buenas, amigables y optimizadas, para así detectar debilidades de tu sitio web.</p>
-                            <figure className="mdf-fnt-center"><Image src="/images/undraw_site_stats_re_ejgy.svg" alt="Imagen de sitios de calidad" className="mdf-img-responsive" width={220} height={220} /></figure>
+                            <figure className="mdf-fnt-center"><Image src="/images/undraw_site_stats_re_ejgy.svg" alt="Imagen de integración de Google Search Console" className="mdf-img-responsive" width={220} height={220} /></figure>
                         </div>
                     </div>
                 </div>

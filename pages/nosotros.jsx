@@ -6,7 +6,7 @@ export default function Nosotros() {
     return (
         <>
             <Head>
-                <title>{`Acerna de nosotros - ${process.env.appName} | ${process.env.appLocation}`}</title>
+                <title>{`Acerca de nosotros - ${process.env.appName} | ${process.env.appLocation}`}</title>
                 <meta name="description" content="Nueva agencia de Tecnologías de la información en Puebla con la experiencia necesaria para el desarrollo de proyectos de tecnología." />
                 <meta name="keywords" content="Agencia de Tecnologías de la información, servicios de tecnología, páginas web, mantenimiento preventivo y correctivo, instalación de cámaras de videovigilancia" />
             </Head>
@@ -15,7 +15,7 @@ export default function Nosotros() {
                 <section className="mdf-appbg-primary mdf-clr-primary-on mdf-py-xx">
                     <div className="app-wrapper-content row">
                         <div className="col-md-3 mdf-fnt-center">
-                            <Image src="/app-light-icon.svg" className="mdf-img-responsive mdf-mb-lg mdf-mt-md" width={200} height={200} />
+                            <Image src="/app-light-icon.svg" className="mdf-img-responsive mdf-mb-lg mdf-mt-md" alt="Logo principal de Tec-IA" width={200} height={200} priority />
                         </div>
                         <div className="col-md-9">
                             <h1 className="mdf-fnt-xx mdf-mb-md">{process.env.appName}</h1>

@@ -8,12 +8,9 @@ export default function Template({ children }) {
     return (
         <>
             <Head>
-                <title>{`${process.env.appName} | Servicios de Tecnologías de la Información`}</title>
-                <meta name="description" content="Servicios de tecnologías de la información: desarrollo web, mantenimiento preventivo y correctivo e instalación y configuración de cámaras de video vigilancia" />
-                <meta name="keywords" content="Desarrollo web, Páginas web, Apliaciones web, Mantenimiento preventivo, Mantenimiento correctivo, cámaras de video vigilancia" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <link href="/app-dark-icon.svg" rel="icon" />
-                <link href="/app-dark-icon.svg" rel="apple-touch-icon" />
+                <link href="/app-icon.svg" rel="icon" />
+                <link href="/app-icon.svg" rel="apple-touch-icon" />
             </Head>
             <Script src="https://kit.fontawesome.com/b4651e8855.js" crossorigin="anonymous" />
             <div>

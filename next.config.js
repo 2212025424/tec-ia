@@ -9,6 +9,7 @@ const nextConfig = {
     },
     env: {
         appName: "Tec-IA",
+        appLocation: "Puebla",
         appInsta: "https://www.instagram.com/",
         appPhone: "+522213401464",
     },

@@ -44,7 +44,7 @@ export default function Navbar() {
                         </ul>
                     </li>
                     <li className={`lyt-navbar-item mdf-p-xm ${isActive("/nosotros")}`}><Link href="/nosotros">Nosotros</Link></li>
-                    {/*<li className={`lyt-navbar-item mdf-p-xm ${isActive("/blog")}`}><Link href="/blog">Noticias</Link></li>*/}
+                    <li className={`lyt-navbar-item mdf-p-xm ${isActive("/blog")}`}><Link href="/">Noticias</Link></li>
                 </ul>
                 <Button type="call" styles="lyt-navbar-button cmp-simple-button">Contáctanos</Button>
                 <div className="lyt-sidebar-toggler mdf-no-userselect">
@@ -60,7 +60,7 @@ export default function Navbar() {
                     <li className="mdf-mb-md"><Link href="/mantenimiento"> <i className="fa-solid fa-caret-right mdf-mr-sm"></i> Mantenimiento</Link></li>
                     <li className="mdf-mb-md"><Link href="/videovigilancia"> <i className="fa-solid fa-caret-right mdf-mr-sm"></i> Videovigilancia</Link></li>
                     <li className="mdf-mb-md mdf-pt-md"><Link href="/nosotros"><i className="fa-solid fa-people-group mdf-mr-sm"></i> Nosotros</Link></li>
-                    {/*<li><Link href="/blog"><i className="fa-solid fa-newspaper mdf-mr-sm"></i> Noticias</Link></li>*/}
+                    <li><Link href="/"><i className="fa-solid fa-newspaper mdf-mr-sm"></i> Noticias</Link></li>
                 </ul>
                 <div className="lyt-sidebar-overlay mdf-bg-overlay" onClick={() => setShowSidebar(false)}></div>
             </div>

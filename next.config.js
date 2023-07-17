@@ -10,8 +10,11 @@ const nextConfig = {
     env: {
         appName: "Tec-IA",
         appLocation: "Puebla",
-        appInsta: "https://www.instagram.com/",
+        appInfo: "Soluciones eficientes en tecnología",
         appPhone: "+522213401464",
+        appCanonical: "https://www.tec-ia.com",
+        appIG: "https://www.instagram.com/agencia.tec.ia",
+        appFB: "https://www.facebook.com/agencia.tec.ia",
     },
 }
 

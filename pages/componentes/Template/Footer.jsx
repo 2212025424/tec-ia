@@ -19,8 +19,8 @@ export default function Footer() {
                 <div>
                     <h2 className="mdf-fnt-h2 mdf-fnt-lighter mdf-mb-md">Servicios que ofrecemos:</h2>
                     <ul className="mdf-fnt-md mdf-mb-lg">
-                        <li><Link href="/desarrollo-web"><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Desarrollo de sitios web</Link></li>
-                        <li><Link href="/mantenimiento"><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Mantenimiento de cómputo</Link></li>
+                        <li><Link href="/desarrollo-web"><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm mdf-pb-xm"></i> Desarrollo de sitios web</Link></li>
+                        <li><Link href="/mantenimiento"><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm mdf-pb-xm"></i> Mantenimiento de cómputo</Link></li>
                         <li><Link href="/videovigilancia"><i className="fa-solid fa-caret-right mdf-mr-sm"></i> Cámaras de videovigilancia</Link></li>
                     </ul>
                     <h2 className="mdf-fnt-h2 mdf-fnt-lighter">Contáctanos si tienes algún proyecto en mente</h2>

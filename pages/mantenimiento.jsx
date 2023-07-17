@@ -3,12 +3,52 @@ import Head from "next/head"
 import Button from "./componentes/Button"
 
 export default function Mantenimiento() {
+
+    const metadata = {
+        title: `Mantenimiento a equipos de cómputo: preventivo y correctivo en ${process.env.appLocation} | ${process.env.appName}`,
+        description: `Ofrecemos mantenimiento preventivo y correctivo a todos los equipos de cómputo, formateo, instalación de paqueterías, enasmblado de equipos completos.`,
+        keywords: `Mantenimiento preventivo, mantenimiento correctivo, mantenimiento a equipo de cómputo, paquetería office, ensamblado de computadoras`,
+        url: `${process.env.appCanonical}/mantenimiento`,
+        image: `${process.env.appCanonical}/app-information.jpeg`,
+        siteName: `${process.env.appName} ${process.env.appLocation} | ${process.env.appInfo}`,
+    }
+
     return (
         <>
             <Head>
-                <title>{`Mantenimiento preventivo y correctivo en ${process.env.appLocation} | ${process.env.appName}`}</title>
-                <meta name="description" content="Damos mantenimiento preventivo y correctivo a equipos de cómputo, instalamos paqueterías de licencia y ensamblamos equipos a medida." />
-                <meta name="keywords" content="Mantenimiento preventivo, Mantenimiento correctivo, Instalación de paquetería office, Ensamblado de equipos de cómputo" />
+
+                <title>{metadata.title}</title>
+                <meta name="description" content={metadata.description} />
+                <meta name="keywords" content={metadata.keywords} />
+
+                <meta property="og:title" content={metadata.title} />
+                <meta property="og:description" content={metadata.description} />
+                <meta property="og:url" content={metadata.url} />
+                <meta property="og:site_name" content={metadata.siteName} />
+                <meta property="og:image" content={metadata.image} />
+                <meta property="og:locale" content="es_MX" />
+                <meta property="og:type" content="website" />
+
+                <link rel="canonical" href={`${process.env.appCanonical}/desarrollo-web`} />
+
+                <script type="application/ld+json" dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "BreadcrumbList",
+                        "itemListElement": [{
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Books",
+                            "item": `${process.env.appCanonical}`
+                        }, {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Science Fiction",
+                            "item": `${metadata.url}`
+                        }]
+                    })
+                }} />
+
             </Head>
 
             <main>

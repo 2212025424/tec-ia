@@ -4,12 +4,51 @@ import Head from "next/head"
 import Button from "./componentes/Button"
 
 export default function Index() {
+
+    const metadata = {
+        title: `Servicios de Tecnologías de la Información en ${process.env.appLocation} | ${process.env.appName}`,
+        description: `Desarrollamos proyectos de Tecnología, desarrollo web estático y dinámico, mantenimiento a equipo de cómputo e instalación de cámaras de videovigilancia.`,
+        keywords: `Servicios de tecnología, desarrollo web, sitios web, páginas web, mantenimiento preventivo, mantenimiento correctivo, cámaras de seguridad`,
+        url: `${process.env.appCanonical}`,
+        image: `${process.env.appCanonical}/app-information.jpeg`,
+        siteName: `${process.env.appName} ${process.env.appLocation} | ${process.env.appInfo}`,
+    }
+
     return (
         <>
             <Head>
-                <title>{`${process.env.appName} - ${process.env.appLocation} | Servicios de Tecnologías de la Información`}</title>
-                <meta name="description" content="Servicios de tecnologías de la información: desarrollo web, mantenimiento preventivo y correctivo e instalación y configuración de cámaras de video vigilancia" />
-                <meta name="keywords" content="Desarrollo web, Páginas web, Apliaciones web, Mantenimiento preventivo, Mantenimiento correctivo, cámaras de video vigilancia" />
+
+                <title>{metadata.title}</title>
+                <meta name="description" content={metadata.description} />
+                <meta name="keywords" content={metadata.keywords} />
+
+                <meta property="og:title" content={metadata.title} />
+                <meta property="og:description" content={metadata.description} />
+                <meta property="og:url" content={metadata.url} />
+                <meta property="og:site_name" content={metadata.siteName} />
+                <meta property="og:image" content={metadata.image} />
+                <meta property="og:locale" content="es_MX" />
+                <meta property="og:type" content="website" />
+
+                <link rel="canonical" href={`${process.env.appCanonical}/desarrollo-web`} />
+
+                <script type="application/ld+json" dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "BreadcrumbList",
+                        "itemListElement": [{
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Books",
+                            "item": `${process.env.appCanonical}`
+                        }, {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Science Fiction",
+                            "item": `${metadata.url}`
+                        }]
+                    })
+                }} />
             </Head>
 
             <main>

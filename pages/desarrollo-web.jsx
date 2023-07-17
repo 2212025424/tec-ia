@@ -3,12 +3,52 @@ import Head from "next/head"
 import Button from "./componentes/Button"
 
 export default function Desarrollo() {
+
+    const metadata = {
+        title: `Desarrollo de páginas web profesionales en ${process.env.appLocation} | ${process.env.appName}`,
+        description: `Desarrollamos páginas web estáticas y dinámicas, ideales para tu perfil, negocio o empresa.`,
+        keywords: `Páginas web, Sitios web, Página One Page, Sitios dinámicos, Gestor de contenidos`,
+        url: `${process.env.appCanonical}/desarrollo-web`,
+        image: `${process.env.appCanonical}/app-information.jpeg`,
+        siteName: `${process.env.appName} ${process.env.appLocation} | ${process.env.appInfo}`,
+    }
+
     return (
         <>
             <Head>
-                <title>{`Desarrollo de sitios web, páginas web en ${process.env.appLocation} | ${process.env.appName}`}</title>
-                <meta name="description" content="Desarrollamos sitios web estáticos y dinámicos, ideales para tu perfil, negocio o empresa." />
-                <meta name="keywords" content="Desarrollo web, Páginas web, Tienda en Línea, Página con blog corporativo, páginas One Page" />
+
+                <title>{metadata.title}</title>
+                <meta name="description" content={metadata.description} />
+                <meta name="keywords" content={metadata.keywords} />
+
+                <meta property="og:title" content={metadata.title} />
+                <meta property="og:description" content={metadata.description} />
+                <meta property="og:url" content={metadata.url} />
+                <meta property="og:site_name" content={metadata.siteName} />
+                <meta property="og:image" content={metadata.image} />
+                <meta property="og:locale" content="es_MX" />
+                <meta property="og:type" content="website" />
+
+                <link rel="canonical" href={`${process.env.appCanonical}/desarrollo-web`} />
+
+                <script type="application/ld+json" dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "BreadcrumbList",
+                        "itemListElement": [{
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Books",
+                            "item": `${process.env.appCanonical}`
+                        }, {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Science Fiction",
+                            "item": `${metadata.url}`
+                        }]
+                    })
+                }} />
+
             </Head>
 
             <main>
@@ -16,8 +56,8 @@ export default function Desarrollo() {
                     <div className="app-wrapper-content">
                         <div className="row">
                             <div className="col-md-7 lyt-index-maincontent">
-                                <h1 className="lyt-index-maintitle mdf-fnt-xx mdf-mb-lg">Desarrollo de sitios web</h1>
-                                <h2 className="mdf-fnt-h3 mdf-fnt-lighter mdf-mb-lg">Desarrollamos <b>sitios web</b> estáticos y dinámicos, profesionales, usables, accesibles y con intención de <b>generar ventas</b>.</h2>
+                                <h1 className="lyt-index-maintitle mdf-fnt-xx mdf-mb-lg">Desarrollo de páginas web profesionales</h1>
+                                <h2 className="mdf-fnt-h3 mdf-fnt-lighter mdf-mb-lg">Desarrollamos <b>sitios web</b> estáticos y dinámicos que cumplen criterios de usabilidad y accesibilidad, con el propósito de <b>generar ventas</b>.</h2>
                                 <ul className="mdf-fnt-h3">
                                     <li><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Tiendas en linea</li>
                                     <li><i className="fa-solid fa-caret-right mdf-mr-sm mdf-mb-sm"></i> Gestor de contenido</li>
@@ -41,31 +81,33 @@ export default function Desarrollo() {
                             <div className="cmp-simple-slate mdf-fnt-center" data-aos="zoom-in">
                                 <h3 className="mdf-fnt-h2 mdf-mb-md">One Page</h3>
                                 <p className="mdf-fnt-md mdf-clr-light mdf-mb-md">Ideal cuando una empresa o negocio requiere comenzar a tener presencia en internet</p>
-                                <h2 className="mdf-fnt-lg mdf-clr-secondary mdf-mb-md">$ 5,500.00</h2>
+                                <h4 className="mdf-fnt-xl mdf-clr-secondary mdf-mb-md">$ 5,500.00</h4>
                                 <p className="mdf-fnt-md mdf-mb-sm">1 única sección</p>
-                                <p className="mdf-fnt-md mdf-mb-sm">Hosting por un año</p>
-                                <p className="mdf-fnt-md mdf-mb-sm">Dominio por un año</p>
-                                <p className="mdf-fnt-md mdf-mb-sm">Enlace a sus redes sociales</p>
-                                <p className="mdf-fnt-md mdf-mb-sm">Imagen de portada</p>
-                                <p className="mdf-fnt-md mdf-mb-sm">Mapa de ubicación con google</p>
-                                <p className="mdf-fnt-md mdf-mb-sm">Testimonios max. 10</p>
-                                <p className="mdf-fnt-md mdf-mb-sm">Novedades max. 10</p>
-                                <p className="mdf-fnt-md mdf-mb-md">Galería de imágenes max. 10</p>
+                                <p className="mdf-fnt-md mdf-mb-sm"><i class="fa-sharp fa-regular fa-circle-xmark mdf-mr-xm" style={{ color: '#f10909' }}></i> Hosting y dominio</p>
+                                <p className="mdf-fnt-md mdf-mb-sm">Formulario de contacto</p>
+                                <p className="mdf-fnt-md mdf-mb-sm">Mapa de ubicación</p>
+                                <p className="mdf-fnt-md mdf-mb-sm">Correos corporativo: 1</p>
+                                <p className="mdf-fnt-md mdf-mb-sm"><i class="fa-sharp fa-regular fa-circle-xmark mdf-mr-xm" style={{ color: '#f10909' }}></i> Google search console</p>
+                                <p className="mdf-fnt-md mdf-mb-sm"><i class="fa-sharp fa-regular fa-circle-xmark mdf-mr-xm" style={{ color: '#f10909' }}></i> Google analytics</p>
+                                <p className="mdf-fnt-md mdf-mb-sm">Galería de imágenes max.10</p>
+                                <p className="mdf-fnt-md mdf-mb-sm">Enlace a redes sociales</p>
+                                <p className="mdf-fnt-md mdf-mb-md">Testimonios y novedades max.10</p>
                                 <Button type="wp" text="Hola, me interesa el paquete One Page, requiero más información." styles="cmp-main-button mdf-w-100 mdf-appbg-secondary mdf-clr-secondary-on">Solicitar información</Button>
                             </div>
                             <div className="cmp-simple-slate mdf-fnt-center" data-aos="zoom-in">
                                 <h3 className="mdf-fnt-h2 mdf-mb-md">Emprendedor</h3>
                                 <p className="mdf-fnt-md mdf-clr-light mdf-mb-md">Ideal para dar a conocer su empresa de manera profesional y ofertar productos o servicios</p>
-                                <h2 className="mdf-fnt-lg mdf-clr-secondary mdf-mb-md">$ 7,500.00</h2>
+                                <h4 className="mdf-fnt-xl mdf-clr-secondary mdf-mb-md">$ 8,000.00</h4>
                                 <p className="mdf-fnt-md mdf-mb-sm"><i className="fa-regular fa-thumbs-up mdf-clr-secondary mdf-mr-xm"></i> Hasta 5 secciones</p>
-                                <p className="mdf-fnt-md mdf-mb-sm">Hosting y dominio por un año</p>
-                                <p className="mdf-fnt-md mdf-mb-sm"><i className="fa-regular fa-thumbs-up mdf-clr-secondary mdf-mr-xm"></i> Formulario de contacto</p>
-                                <p className="mdf-fnt-md mdf-mb-sm">Enlace a sus redes sociales</p>
-                                <p className="mdf-fnt-md mdf-mb-sm">Imagen de portada</p>
-                                <p className="mdf-fnt-md mdf-mb-sm">Mapa de ubicación con google</p>
-                                <p className="mdf-fnt-md mdf-mb-sm">Testimonios max. 10</p>
-                                <p className="mdf-fnt-md mdf-mb-sm">Novedades max. 10</p>
-                                <p className="mdf-fnt-md mdf-mb-md">Galería de imágenes max. 10</p>
+                                <p className="mdf-fnt-md mdf-mb-sm"><i className="fa-regular fa-thumbs-up mdf-clr-secondary mdf-mr-xm"></i> Hosting y dominio: 1 mes</p>
+                                <p className="mdf-fnt-md mdf-mb-sm">Formulario de contacto</p>
+                                <p className="mdf-fnt-md mdf-mb-sm">Mapa de ubicación</p>
+                                <p className="mdf-fnt-md mdf-mb-sm"><i className="fa-regular fa-thumbs-up mdf-clr-secondary mdf-mr-xm"></i> Correos corporativos: 3</p>
+                                <p className="mdf-fnt-md mdf-mb-sm"><i class="fa-sharp fa-regular fa-circle-xmark mdf-mr-xm" style={{ color: '#f10909' }}></i> Google search console</p>
+                                <p className="mdf-fnt-md mdf-mb-sm"><i class="fa-sharp fa-regular fa-circle-xmark mdf-mr-xm" style={{ color: '#f10909' }}></i> Google analytics</p>
+                                <p className="mdf-fnt-md mdf-mb-sm">Galería de imágenes max.10</p>
+                                <p className="mdf-fnt-md mdf-mb-sm">Enlace a redes sociales</p>
+                                <p className="mdf-fnt-md mdf-mb-md">Testimonios y novedades max.10</p>
                                 <div className="mdf-grd-xm">
                                     <Button type="call" styles="cmp-main-button mdf-w-100 mdf-appbg-secondary mdf-clr-secondary-on">Llamanos</Button>
                                     <Button type="wp" text="Hola, me interesa el paquete Emprendedor, requiero más información." styles="cmp-main-button mdf-w-100 mdf-appbg-secondary mdf-clr-secondary-on">Información</Button>
@@ -74,16 +116,17 @@ export default function Desarrollo() {
                             <div className="cmp-simple-slate mdf-fnt-center" data-aos="zoom-in">
                                 <h3 className="mdf-fnt-h2 mdf-mb-md">Empresarial</h3>
                                 <p className="mdf-fnt-md mdf-clr-light mdf-mb-md">Ideal cuando una empresa o negocio requiere comenzar a tener presencia en internet</p>
-                                <h2 className="mdf-fnt-lg mdf-clr-secondary mdf-mb-md">$ 15,000.00</h2>
+                                <h4 className="mdf-fnt-xl mdf-clr-secondary mdf-mb-md">$ 15,500.00</h4>
                                 <p className="mdf-fnt-md mdf-mb-sm"><i className="fa-regular fa-thumbs-up mdf-clr-secondary mdf-mr-xm"></i> Hasta 10 secciones</p>
-                                <p className="mdf-fnt-md mdf-mb-sm">Hosting y dominio por un año</p>
+                                <p className="mdf-fnt-md mdf-mb-sm"><i className="fa-regular fa-thumbs-up mdf-clr-secondary mdf-mr-xm"></i> Hosting y dominio: 3 meses</p>
                                 <p className="mdf-fnt-md mdf-mb-sm">Formulario de contacto</p>
-                                <p className="mdf-fnt-md mdf-mb-sm">Enlace a sus redes sociales</p>
-                                <p className="mdf-fnt-md mdf-mb-sm"><i className="fa-regular fa-thumbs-up mdf-clr-secondary mdf-mr-xm"></i> Imagen de portada dinámica</p>
-                                <p className="mdf-fnt-md mdf-mb-sm">Mapa de ubicación con google</p>
-                                <p className="mdf-fnt-md mdf-mb-sm">Testimonios y novedades Máx. 10</p>
-                                <p className="mdf-fnt-md mdf-mb-sm"><i className="fa-regular fa-thumbs-up mdf-clr-secondary mdf-mr-xm"></i> Blog corporativo</p>
-                                <p className="mdf-fnt-md mdf-mb-md">Galería de imágenes max. 10</p>
+                                <p className="mdf-fnt-md mdf-mb-sm">Mapa de ubicación</p>
+                                <p className="mdf-fnt-md mdf-mb-sm"><i className="fa-regular fa-thumbs-up mdf-clr-secondary mdf-mr-xm"></i> Correos corporativos: 5</p>
+                                <p className="mdf-fnt-md mdf-mb-sm"><i className="fa-regular fa-thumbs-up mdf-clr-secondary mdf-mr-xm"></i> Google search console</p>
+                                <p className="mdf-fnt-md mdf-mb-sm"><i className="fa-regular fa-thumbs-up mdf-clr-secondary mdf-mr-xm"></i> Google analytics</p>
+                                <p className="mdf-fnt-md mdf-mb-sm">Galería de imágenes max.10</p>
+                                <p className="mdf-fnt-md mdf-mb-sm">Enlace a redes sociales</p>
+                                <p className="mdf-fnt-md mdf-mb-md">Testimonios y novedades max.10</p>
                                 <Button type="wp" text="Hola, me interesa el paquete empresarial, requiero más información." styles="cmp-main-button mdf-w-100 mdf-appbg-secondary mdf-clr-secondary-on">Solicitar información</Button>
                             </div>
                         </div>
